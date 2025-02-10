@@ -2,9 +2,6 @@
 
 NLP Text summarization project using Sequence to Sequence Modelling with LSTMS 
 
-![Seq to Seq Architecture](https://github.com/shreymukh2020/Text-summarization-project-NLP/blob/main/LSTM%20Architecture.png)
-
-
 <img src="https://github.com/shreymukh2020/Text-summarization-project-NLP/blob/main/LSTM%20Architecture.png" alt="Seq to Seq Architecture" width="500"/>
 
 
