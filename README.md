@@ -4,19 +4,6 @@ NLP Text summarization project using Sequence to Sequence Modelling with LSTMS
 
 
 
-            +------------------+                   +-------------------+
-Input ---->|   Encoder        |----> Context ---->|    Decoder        |----> Output
-            +------------------+                   +-------------------+
-                   |                                         |
-               Hidden States                            Hidden States
-                   |                                         |
-             LSTM/GRU Units                         LSTM/GRU Units
-                   |                                         |
-            +--------------+                         +--------------+
-            |  Embedding   |                         |  Softmax     |
-            +--------------+                         +--------------+
-
-
 
 ### Text summarization is a process of condensing a long text into a concise summary while preserving its essential information. One of the most effective deep learning approaches for text summarization is the Sequence-to-Sequence (Seq2Seq) model.
 
