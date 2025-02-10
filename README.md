@@ -4,6 +4,7 @@ NLP Text summarization project using Sequence to Sequence Modelling with LSTMS
 
 <img src="https://github.com/shreymukh2020/Text-summarization-project-NLP/blob/main/LSTM%20Architecture.png" alt="Seq to Seq Architecture" width="500"/>
 
+<img src="https://github.com/shreymukh2020/Text-summarization-project-NLP/blob/main/Seq%202%20seq%20summarization.png" alt="Seq to Seq Architecture" width="500"/>
 
 
 ### Text summarization is a process of condensing a long text into a concise summary while preserving its essential information. One of the most effective deep learning approaches for text summarization is the Sequence-to-Sequence (Seq2Seq) model.
