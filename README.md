@@ -2,11 +2,18 @@
 
 NLP Text summarization project using Sequence to Sequence Modelling with LSTMS 
 
-Input Sequence (X1, X2, X3, ..., Xn)    Encoder                      Decoder             Output Sequence (Y1, Y2, Y3, ..., Ym)
-        |             +-----------------+------------------+    +-------------------+---------------------+
-        |------>   [Embedding Layer]   [RNN / LSTM / GRU]   +--->   [RNN / LSTM / GRU]   [Softmax Layer]     |
-                      | Encoder Hidden State |                  | Decoder Hidden State      | Predicted Output  |
-                      |        (Context)       |                  |        (Context)         |  Y1, Y2, Y3, ...
+            +------------------+                   +-------------------+
+Input ---->|   Encoder        |----> Context ---->|    Decoder        |----> Output
+            +------------------+                   +-------------------+
+                   |                                         |
+               Hidden States                            Hidden States
+                   |                                         |
+             LSTM/GRU Units                         LSTM/GRU Units
+                   |                                         |
+            +--------------+                         +--------------+
+            |  Embedding   |                         |  Softmax     |
+            +--------------+                         +--------------+
+
 
 
 ### Text summarization is a process of condensing a long text into a concise summary while preserving its essential information. One of the most effective deep learning approaches for text summarization is the Sequence-to-Sequence (Seq2Seq) model.
