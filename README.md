@@ -2,6 +2,7 @@
 
 NLP Text summarization project using Sequence to Sequence Modelling with LSTMS 
 
+![Seq to Seq Architecture](https://example.com/architecture.png)
 
 
 
